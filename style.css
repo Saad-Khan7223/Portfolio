@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #220040;
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+    color: blanchedalmond;
+    align-items: center;
+    background: #220040;
+    height: 8vh;
+    font-size: 1rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menuitem {
+    margin-right: 10px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    background: #220040;
+    color: blanchedalmond;
+    padding: 50px 100px;
+}
+
+.button-detail button {
+    padding: 2vw;
+    margin-top: 2vw;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 0.8em;
+    font-weight: 100em;
+    border: none;
+    border-radius: 20px;
+}
+
+.button-detail button:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+menuitem a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw 2vw;
+    background: #220040;
+    color: blanchedalmond;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.ed {
+    margin: 0 1vw;
+}
+
+.uni {
+    display: flex;
+    margin: 0 1vw;
+    align-items: center;
+}
+
+.college {
+    display: flex;
+    margin: 0 1vw;
+    align-items: center;
+}
+
+.heading-project {
+    margin: 2vh 1vw;
+}
+
+.skills-heading {
+    padding-left: 1vw;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 3vw;
+}
